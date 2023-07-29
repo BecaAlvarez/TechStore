@@ -1,4 +1,7 @@
 .cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   max-width: 330px;
   background-color: #ffffff;
@@ -7,4 +10,22 @@
   top: 0;
   right: 0;
   padding: 100px 20px 20px;
+}
+
+.cart-items {
+  flex-grow: 1;
+  /*Para criar uma barra de rolagem quando não houver mais espaço*/
+  overflow: auto;
+  
+}
+
+.cart-resume {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 35px 0 15px;
+  border-top: 1px solid #ddd;
+}
+
+.cart-items .cart-item:last-child{
+  border-bottom: none;
 }

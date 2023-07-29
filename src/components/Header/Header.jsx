@@ -7,8 +7,9 @@ function Header() {
   return (
     <header className="header">
       <nav className="contanierHeader">
-        <button type="button" >Carrinho</button>
-        <AiOutlineShoppingCart/>
+        <button type="button" >
+          <AiOutlineShoppingCart/>
+        </button>
       </nav>
     </header>
   );
