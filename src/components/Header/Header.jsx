@@ -1,15 +1,14 @@
 import React from 'react';
-import {AiOutlineShoppingCart} from 'react-icons/ai';
-
+//import Cart from '../Cart/Cart';
 import './Header.css';
+import CartButton from '../CartButton/CartButton';
 
 function Header() {
+  
   return (
     <header className="header">
       <nav className="contanierHeader">
-        <button type="button" >
-          <AiOutlineShoppingCart/>
-        </button>
+        <CartButton/>
       </nav>
     </header>
   );

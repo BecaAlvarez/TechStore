@@ -10,6 +10,8 @@
   top: 0;
   right: 0;
   padding: 100px 20px 20px;
+  transform: translate(110%, 0);
+  transition: all 400ms ease;
 }
 
 .cart-items {
@@ -28,4 +30,8 @@
 
 .cart-items .cart-item:last-child{
   border-bottom: none;
+}
+
+.cart--active{
+  transform: translate(0, 0);
 }
