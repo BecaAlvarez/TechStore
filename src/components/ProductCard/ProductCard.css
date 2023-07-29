@@ -1,16 +1,18 @@
 .product-card{
-  width: 100%;
+  width: 95%;
   max-width: 300px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  margin: 0 auto;
+  margin: 10px;
   position: relative;
+  border-radius: 10px;
 }
 
 .card__image{
   width: 100%;
+  border-radius: 10px;
 }
 
 .card__infos{

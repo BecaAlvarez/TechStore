@@ -1,5 +1,4 @@
 import React from 'react';
-//import Cart from '../Cart/Cart';
 import './Header.css';
 import CartButton from '../CartButton/CartButton';
 
@@ -7,6 +6,7 @@ function Header() {
   
   return (
     <header className="header">
+      <img src="../../assets/logoApple.png" className="logo"/>
       <nav className="contanierHeader">
         <CartButton/>
       </nav>

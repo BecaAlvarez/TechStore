@@ -7,11 +7,10 @@ function CartButton(){
 
   const { cartItems, isCartVisible, setIsCartVisible} = useContext(AppContext);
 
-  
 
   return(
     <button type="button" className="cart__button" onClick={() => setIsCartVisible(!isCartVisible)}>
-      <AiOutlineShoppingCart/>
+      <AiOutlineShoppingCart size={24} color="white"/>
       {
         cartItems.length > 0 && <span className="cart-status">{cartItems.length}</span>
       }
